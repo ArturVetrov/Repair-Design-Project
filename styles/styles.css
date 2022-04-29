@@ -77,7 +77,7 @@ ul li:first-child a {
 }
 
 .hero {
-    background-image: url(/images/first.jpg);
+    background-image: url(../images/first.jpg);
     background-size: cover;
     height: 707px;
     padding: 194px 628px 208px 134px;
@@ -223,16 +223,127 @@ z-index: 1;
 }
 
 .button-play {
-    background: url(/images/button-play.svg);
+    background: url(../images/button-play.svg);
     width: 120px;
     height: 110px;
     border: none;
     position: absolute;
     left: 46.94%;
-    right: 47.14%; 
-    top: 40.24%;
+    right: 47.14%;
+    top: 25.24%;
+    bottom: 56.42%;
     cursor: pointer;
 }
 
+.slidethird-text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37px;
+    padding-top: 34px;
+}
 
+.form-submit {
+    display: flex;
+    width: 769px;
+    font-size: 13px;
+    color: rgba(54, 54, 54, 0.5);
+	margin: 92px auto 35px;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.input-name, .input-phone {
+    width: 231px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.5);
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.input-name {
+    margin-right: 58px;
+}
+
+.input-phone {
+    margin-right: 49px;
+}
+
+.button-form {
+    background: #E3B873;
+    box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+    border-radius: 2px;
+    border: transparent;
+    width: 200px;
+    height: 51px;
+    color: #FFFFFF;
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.slidethird-checkbox {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.checkbox-input {
+    display: none;
+}
+
+.checkbox-submit {
+	height: 18px;
+	width: 18px;
+	display: inline-block;
+	position: relative;
+	top: 5px;
+	/*background: #E3B873;*/
+	border: 2px solid #E3B873;
+	margin-right: 9px;
+	cursor: pointer;
+}
+
+.checkbox-input:checked + .checkbox-submit:before {
+    content: url(../images/v.png);
+    position: absolute;
+    color:white;
+    top: -2px;
+    left: -1px;
+  }
+
+  .agree {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .slidefourth-head {
+    width: 400px;
+    margin:0 auto;
+    margin-top: 76px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+  }
+
+  .slidefourth-tools {
+      background-image: url(../images/Fourthslide-tools.svg);
+      width: 114px;
+      height: 28px;
+      margin: 0 auto;
+  }
 
