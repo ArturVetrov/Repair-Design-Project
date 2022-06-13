@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Yeseva+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles-mobile.css">
     <title>Project1</title>
 </head>
 <body>
@@ -24,8 +25,8 @@
                     <li class="header_navigation_item"><a href="#team">TEAM</a></li>
                     <li class="header_navigation_item"><a href="#reviews">REVIEWS</a></li>
                     <li class="header_navigation_item"><a href="#contacts">CONTACTS</a></li>
-                    <li class="header_navigation_call"><a href="#">+7 (928) 768-32-39</a></li>
-                    </ul>
+                    <a class="telephone" href="#">+7 (928) 768-32-39</a>
+                </ul>
             </nav>
             <button class="buttonfirst">Request a call</button>
     </div>   
@@ -46,7 +47,7 @@
         </div>
         <div class="hero_overlay"></div>
     </section>
-    <section class="slidetwo" id="projects"> <!--Второй блок страницы-->
+    <section class="slidetwo_pc" id="projects"> <!--Второй блок страницы для pc-->
         <div class="container">
             <ul class="slidetwo-nav">
                 <li class="slidetwo-nav-item"><a href="#"><span class="text-decor-underline">Rostov-on-Don, Admiral</span></a></li>
@@ -78,8 +79,42 @@
                     </div>
             </div>
                     <div>
-                        <img class="slidetwo-content_img" src="images/slidetwo-content.png" alt="Готовый интерьер. Решение гостинной" width="679px" height="482px">
+                        <img class="slidetwo-content_img" src="images/slidetwo-content.png" alt="Готовый интерьер. Решение гостинной">
                     </div>
+                    <div class="arows-nav">
+                        <input type="image" src="images/arrows-nav.svg">
+                    </div>
+        </div>         
+    </section>
+    <section class="slidetwo_mobile" id="projects"> <!--Второй блок страницы для mobile-->
+        <div class="container">
+            <div class="slidetwo-content">
+                <h2 class="title_slidetwo"><span class="colortext">Completed </br> projects</span></h2>
+                <p class="slidetwo-p_text">Only a small part of the work performed by our company is</br>
+                    presented on the site. For 14 years on in the construction</br> 
+                    market we have made happy more than 1000 families</p>
+                    <div>
+                        <img class="slidetwo-content_img" src="images/slidetwo-content.png" alt="Готовый интерьер. Решение гостинной">
+                    </div>
+                    <div class="slidetwo-content_grid">
+                        <div>
+                            <h3 style="font-size: 14px"; class="title_mobile"><span class="colortext">City:</span></h3>
+                            <p class="slidetwo-text">Rostov-on-Don </br> LCD admiral</p>
+                        </div>
+                        <div>
+                            <h3 style="font-size: 14px"; class="title_mobile"><span class="colortext">apartment area:</span></h3>
+                            <p class="slidetwo-text">Rostov-on-Don </br>81 m<sup>2</sup></p>
+                        </div>
+                        <div>
+                            <h3 style="font-size: 14px"; class="title_mobile"><span class="colortext">Repair time:</span></h3>
+                            <p class="slidetwo-text">3.5 months</p>
+                        </div>
+                        <div>
+                            <h3 style="font-size: 14px"; class="title_mobile"><span class="colortext">Repair Cost:</span></h3>
+                            <p class="slidetwo-text">Upon request</p>
+                        </div>
+                    </div>
+            </div>
                     <div class="arows-nav">
                         <input type="image" src="images/arrows-nav.svg">
                     </div>
@@ -90,24 +125,33 @@
             <div class="Camera">
                 <img src="images/Camera.svg" alt="Камера видеонаблюдения">
             </div>
-            <div>
-                <img class="video-control" src="images/Slidethirdimg.svg">
+            <div class="video-control">
+                <!--<img class="video-control" src="images/Slidethirdimg.svg">-->
                 <button class="button-play"></button>
-                <hr color="#E3B873" width="95px" size="3px">
             </div>
-            <center>
-                <p class="slidethird-text">
+            <hr color="#E3B873" width="95px" size="3px">
+                <p class="slidethird-text_pc">
                     At each facility, a camera is installed that broadcasts the progress of work on the <br> clock. 
                     At any time, you can go to our website and monitor the progress of work in <br> your apartment. 
                     You can watch the live broadcast from one of our facilities! <br>
                     Leave a request below and you will receive a link to the broadcast.
                 </p>
-            </center>
+                <p class="slidethird-text_mobile">
+                    At each facility, a camera is installed that broadcasts the progress of<br> 
+                    work on the clock. At any time, you can go to our website and<br> 
+                    monitor the progress of work in your apartment.<br> You can watch the live broadcast from one of our facilities!<br>
+                    Leave a request below and you will receive a link to the broadcast.
+                </p>
             <form class="form-submit" action="" method="post">
                 <label><span class="label">Name</span><br>
                 <input class="input-name" type="text" name="name" placeholder="What is your name:"></label>
                 <label><span class="label">Phone</span><br>
                 <input class="input-phone" type="tel" name="phone" placeholder="Your phone number:"></label>
+                <label class="checbox-mobile">
+                    <input class="checkbox-input" type="checkbox">
+                    <span class="checkbox-submit"></span>
+                    <span class="agree">I agree to the processing of personal data</span>
+                </label>
                 <button class="button-form">Submit</button>
             </form>
             <div class="slidethird-checkbox">

@@ -1,0 +1,192 @@
+@media screen and (max-width: 1300px) {
+
+    .container {
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+
+    .header_navigation_item,
+    .buttonfirst,
+    .slidetwo_pc,
+    .arows-nav,
+    .slidethird-text_pc,
+    .request-div,
+    .request-block-save,
+    .realize,
+    .clients,
+    .slidethird-checkbox,
+    .town {
+        display: none;
+    }
+
+    .hero {
+        background-image: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%), url(../images/first.jpg);
+        background-size: cover;
+        height: 476px;
+        padding: inherit;
+    }
+
+    .hero_container {
+        padding-top: 85px;
+        display: grid;
+        justify-content: center;
+    }
+
+    .title {
+        font-size: 23px;
+        line-height: 132.83%;
+        width: 339px;
+        height: 60px;
+    }
+
+    .subtitle_p {
+        font-size: 14px;
+        line-height: 19px;
+        width: 339px;
+        height: 94px;
+        margin-top: 16px;
+        margin-bottom: -40px;
+    }
+
+    .buttonthrid,
+    .buttonsecond {
+        width: 338px;
+        height: 51px;
+        margin-top: 26px;
+    }
+
+    .slidetwo_mobile {
+        background-color: black;
+        height: 1074px;
+        padding-top: 36px;
+        position: relative;
+        display: grid;
+        justify-content: center;
+    }
+
+    .title_slidetwo {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 30px;
+        text-transform: uppercase;
+        letter-spacing: -0.07em;
+        text-align: center;
+    }
+
+    .slidetwo-content_img {
+        max-width: 340px;
+        min-height: 241px;
+        margin: 0;
+    }
+
+    .slidetwo-p_text {
+        font-size: 11px;
+        line-height: 15px;
+        text-align: center;
+        color: white;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 158.48%;
+        margin-bottom: 47px;
+    }
+
+    .slidetwo-text {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 135.84%;
+        color: white;
+    }
+
+    .title_mobile {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px;
+        text-transform: uppercase;
+    }
+
+    .slidethird {
+        margin-top: -378px;
+    }
+
+    .video-control {
+        width: 100%;
+        background-size: cover;
+    }
+
+    .slidethird {
+        background-color: black;
+        height: 1060px;
+    }
+
+    .slidethird-text_mobile {
+        font-family: Nunito Sans;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: white;
+        margin-bottom: 61px;
+    }
+
+    .form-submit {
+        flex-direction: column;
+        align-items: center;
+        width: 100px;
+        margin: 0 auto;
+        
+    }
+
+    .label {
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .input-name, 
+    .input-phone {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 138.72%;
+        background-color: transparent;
+        border: none;
+        color: white;
+        border-bottom: 1px solid rgba(245, 245, 245, 0.8);
+        margin-bottom: 63px;
+    }
+
+    form[class="form-submit"] label input::placeholder {
+        color: #FFFFFF;
+    }
+
+    .checbox-mobile {
+        width: 300px;
+        color: #FFFFFF;
+        margin-bottom: 62px;
+    }
+    
+    .button-form {
+        width: 340px;
+        height: 51px;
+    }
+
+    .board {
+        flex-direction: column;
+    }
+
+    .list-fourblock {
+        margin-left: 0;
+    }
+
+    .slide_board:not(:first-child) {
+        margin-top: 59px;
+    }
+}       
