@@ -123,9 +123,13 @@
     }
 
     .slidethird {
-        margin-top: -440px;
+        margin-top: -380px;
         background-color: black;
         height: 1060px;
+    }
+
+    .Camera {
+        margin-top: -150px;
     }
 
     .video-control {
@@ -151,7 +155,7 @@
     .play {
         border: 10px solid transparent; 
         border-left: 11px solid #FFFFFF;
-        margin-left: 9px;
+        margin: 38%;
     }
 
     .slidethird-text_mobile {
@@ -222,6 +226,11 @@
         margin-right: 0px;
     }
 
+    .button-form-fourslide {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
     .list-fourblock {
         margin-left: 0;
     }
@@ -263,7 +272,7 @@
         height: 10px;
         border-top: 1.5px solid #FFFFFF;
         border-right: 1.5px solid #FFFFFF;
-        margin-left: 7px;
+        margin: 0 auto;
     }
 
     .button-left {
