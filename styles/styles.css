@@ -358,7 +358,7 @@ button:hover:not(.button-not) {
 }
 
 .checkbox-input:checked + .checkbox-submit:before {
-    content: url(../images/v.png);
+    content: url(../images/V.png);
     position: absolute;
     color:white;
     top: -2px;
