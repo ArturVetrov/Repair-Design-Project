@@ -1,369 +1,374 @@
 @media screen and (max-width: 768px) {
 
-    .container {
-        margin-left: 18px;
-        margin-right: 18px;
-        width: auto;
-        max-width: 100%;
-    }
+.container {
+  margin-left: 18px;
+  margin-right: 18px;
+  width: auto;
+  max-width: 100%;
+}
 
-    .header_navigation_item,
-    .buttonfirst,
-    .slidetwo_pc,
-    .arows-nav,
-    .slidethird-text_pc,
-    .request-div,
-    .request-block-save,
-    .realize,
-    .clients,
-    .slidethird-checkbox,
-    .town,
-    .contacts-pc,
-    .footer {
-        display: none;
-    }
+.header_navigation_item,
+.buttonfirst,
+.slidetwo_pc,
+.arows-nav,
+.slidethird-text_pc,
+.request-div,
+.request-block-save,
+.realize,
+.clients,
+.slidethird-checkbox,
+.town,
+.contacts-pc,
+.footer {
+  display: none;
+}
 
-    .hero {
-        background-image: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%), url(../images/first.jpg);
-        background-size: cover;
-        height: 476px;
-        padding: inherit;
-    }
+.hero {
+  background-image: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%), url(../images/first.jpg);
+  background-size: cover;
+  height: 476px;
+  padding: inherit;
+}
 
-    .hero_container {
-        padding-top: 85px;
-        display: grid;
-        justify-content: center;
-    }
+.hero_container {
+  padding-top: 85px;
+  display: grid;
+  justify-content: center;
+}
 
-    .title {
-        font-size: 23px;
-        line-height: 132.83%;
-        width: auto;
-        max-width: 100%;
-        height: 60px;
-    }
+.title {
+  font-size: 23px;
+  line-height: 132.83%;
+  width: auto;
+  max-width: 100%;
+  height: 60px;
+}
 
-    .subtitle_p {
-        font-size: 14px;
-        line-height: 19px;
-        width: 339px;
-        height: 94px;
-        margin-top: 16px;
-        margin-bottom: -40px;
-    }
+.subtitle_p {
+  font-size: 14px;
+  line-height: 19px;
+  width: 339px;
+  height: 94px;
+  margin-top: 16px;
+  margin-bottom: -40px;
+}
 
-    .buttonthrid,
-    .buttonsecond {
-        width: 338px;
-        height: 51px;
-        margin-top: 26px;
-    }
+.buttonthrid,
+.buttonsecond {
+  width: 338px;
+  height: 51px;
+  margin-top: 26px;
+}
 
-    .slidetwo_mobile {
-        background-color: black;
-        height: 1074px;
-        padding-top: 36px;
-        position: relative;
-        display: grid;
-        justify-content: center;
-    }
+.slidetwo_mobile {
+  background-color: black;
+  height: 1400px;
+  padding-top: 36px;
+  position: relative;
+  display: grid;
+  justify-content: center;
+  margin-bottom: 270px;
+}
 
-    .title_slidetwo {
-        font-family: 'Yeseva One';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 22px;
-        font-weight: 400;
-        line-height: 30px;
-        text-transform: uppercase;
-        letter-spacing: -0.07em;
-        text-align: center;
-    }
+.title_slidetwo {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: -0.07em;
+  text-align: center;
+}
 
-    .slidetwo-content-img {
-        background-image: url(../images/slidetwo-content-mobile.png);
-        background-size: cover;
-        display: flex;
-        justify-content: center;
-        position: relative;
-        width: 85vw;
-        height: 38vh;
-        margin: 0 auto;
-    }
+.slidetwo-content-img {
+  background-image: url(../images/slidetwo-content-mobile.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 85vw;
+  height: 38vh;
+  margin: 0 auto;
+}
 
-    .slidetwo-p_text {
-        font-size: 11px;
-        line-height: 15px;
-        text-align: center;
-        color: white;
-        font-family: 'Nunito Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 11px;
-        line-height: 158.48%;
-        margin-bottom: 47px;
-    }
+.slidetwo-content_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
-    .slidetwo-text {
-        font-family: 'Nunito Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 11px;
-        line-height: 135.84%;
-        color: white;
-    }
+.slidetwo-p_text {
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  color: white;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 158.48%;
+  margin-bottom: 47px;
+}
 
-    .title_mobile {
-        font-family: 'Yeseva One';
-        font-style: normal;
-        font-weight: 400;
-        line-height: 19px;
-        text-transform: uppercase;
-    }
+.slidetwo-text {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 135.84%;
+  color: white;
+}
 
-    .slidethird {
-        margin-top: -300px;
-        background-color: black;
-        height: 1060px;
-    }
+.title_mobile {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  text-transform: uppercase;
+}
 
-    .Camera {
-        margin-top: -120px;
-    }
+.slidethird {
+  margin-top: -300px;
+  background-color: black;
+  height: 1060px;
+}
 
-    .video-control {
-        background-image: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%), url(../images/Slidethirdimg-mobile.png);
-        background-size: cover;
-        width: 88vw;
-        height: 31vh;
-        margin: 40px auto 28px auto;
-        
-    }
+.Camera {
+  margin-top: -120px;
+}
 
-    .button-play {
-        background-color: #E3B873;
-        border-radius: 50%;
-        width: 37px;
-        height: 37px;
-        border: none;
-        position: absolute;
-        top: 45;
-        left: 45%;
-    }
-    
-    .play {
-        border: 10px solid transparent; 
-        border-left: 11px solid #FFFFFF;
-        margin: 38%;
-    }
+.video-control {
+  background-image: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%), url(../images/Slidethirdimg-mobile.png);
+  background-size: cover;
+  width: 88vw;
+  height: 31vh;
+  margin: 40px auto 28px auto;
 
-    .slidethird-text_mobile {
-        font-family: Nunito Sans;
-        font-size: 11px;
-        font-weight: 400;
-        line-height: 19px;
-        letter-spacing: 0em;
-        text-align: center;
-        color: white;
-        margin-bottom: 61px;
-    }
+}
 
-    .form-submit {
-        flex-direction: column;
-        align-items: center;
-        width: 100px;
-        margin: 0 auto;
-        
-    }
+.button-play {
+  background-color: #E3B873;
+  border-radius: 50%;
+  width: 37px;
+  height: 37px;
+  border: none;
+  position: absolute;
+  top: 45;
+  left: 45%;
+}
 
-    .label {
-        color: rgba(255, 255, 255, 0.5);
-    }
+.play {
+  border: 10px solid transparent;
+  border-left: 11px solid #FFFFFF;
+  margin: 38%;
+}
 
-    .input-name, 
-    .input-phone {
-        font-family: 'Nunito Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 138.72%;
-        background-color: transparent;
-        border: none;
-        color: white;
-        border-bottom: 1px solid rgba(245, 245, 245, 0.8);
-        margin-bottom: 63px;
-    }
+.slidethird-text_mobile {
+  font-family: Nunito Sans;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  margin-bottom: 61px;
+}
 
-    form[class="form-submit"] label input::placeholder {
-        color: #FFFFFF;
-    }
+.form-submit {
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  margin: 0 auto;
 
-    .checbox-mobile {
-        width: 300px;
-        color: #FFFFFF;
-        margin-bottom: 62px;
-    }
-    
-    .button-form {
-        width: 340px;
-        height: 51px;
-    }
+}
 
-    .slidefourth-head {
-        width: auto;
-        max-width: 100%;
-    }
+.label {
+  color: rgba(255, 255, 255, 0.5);
+}
 
-    .board {
-        flex-direction: column;
-        align-items: center;
-        width: auto;
-        max-width: 100%;
-    }
+.input-name,
+.input-phone {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 138.72%;
+  background-color: transparent;
+  border: none;
+  color: white;
+  border-bottom: 1px solid rgba(245, 245, 245, 0.8);
+  margin-bottom: 63px;
+}
 
-    .slide_board {
-        margin-right: 0px;
-    }
+form[class="form-submit"] label input::placeholder {
+  color: #FFFFFF;
+}
 
-    .button-form-fourslide {
-        font-size: 15px;
-        line-height: 21px;
-    }
+.checbox-mobile {
+  width: 300px;
+  color: #FFFFFF;
+  margin-bottom: 62px;
+}
 
-    .list-fourblock {
-        margin-left: 0;
-    }
+.button-form {
+  width: 340px;
+  height: 51px;
+}
 
-    .slide_board:not(:first-child) {
-        margin-top: 59px;
-    }
+.slidefourth-head {
+  width: auto;
+  max-width: 100%;
+}
 
-    .img-slide {
-        width: 340px;
-    }
+.board {
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  max-width: 100%;
+}
 
-    .contacts-mobile_title {
-        font-family: 'Yeseva One';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 22px;
-        line-height: 138.6%;
-        text-align: center;
-        text-transform: uppercase;
-        color: #E3B873;
-        margin-top: 55px;
-    }
+.slide_board {
+  margin-right: 0px;
+}
 
-    .realize-mobile_div {
-        background-image: url(../images/Realize-mobile.png);
-        background-size: cover;
-        display: flex;
-        justify-content: center;
-        position: relative;
-        width: 80vw;
-        height: 54vw;
-        margin: 0 auto;
+.button-form-fourslide {
+  font-size: 15px;
+  line-height: 21px;
+}
 
-    }
+.list-fourblock {
+  margin-left: 0;
+}
 
-    .vector {
-        width: 10px;
-        height: 10px;
-        border-top: 1.5px solid #FFFFFF;
-        border-right: 1.5px solid #FFFFFF;
-        margin: 0 auto;
-    }
+.slide_board:not(:first-child) {
+  margin-top: 59px;
+}
 
-    .button-left {
-        background-color: #E3B873;
-        width: 36px;
-        height: 36px;
-        border: none;
-        position: absolute;
-        top: 50%;
-        left: 13px;
-        border-radius: 50%;
-    }
+.img-slide {
+  width: 340px;
+}
 
-    .vector-left {
-        transform: rotate(-135deg);
-    }
+.contacts-mobile_title {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 138.6%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #E3B873;
+  margin-top: 55px;
+}
 
-    .button-right {
-        background-color: #E3B873;
-        width: 36px;
-        height: 36px;
-        border: none;
-        position: absolute;
-        top: 50%;
-        right: 13px;
-        border-radius: 50%; 
-    }
+.realize-mobile_div {
+  background-image: url(../images/Realize-mobile.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 80vw;
+  height: 54vw;
+  margin: 0 auto;
 
-    .vector-right {
-        transform: rotate(45deg);
-    }
+}
 
-    .contacts-mobile-two {
-        background-color: black;
-        height: 1275px;
-        margin-top: -94px;
-    }
+.vector {
+  width: 10px;
+  height: 10px;
+  border-top: 1.5px solid #FFFFFF;
+  border-right: 1.5px solid #FFFFFF;
+  margin: 0 auto;
+}
 
-    .questions-div-mobile {
-        padding-top: 133px;
-        display: grid;
-        justify-content: center;
-    }
+.button-left {
+  background-color: #E3B873;
+  width: 36px;
+  height: 36px;
+  border: none;
+  position: absolute;
+  top: 50%;
+  left: 13px;
+  border-radius: 50%;
+}
 
-    .questions-form-mobile {
-        margin: 0 auto;
-    }
+.vector-left {
+  transform: rotate(-135deg);
+}
 
-    form[class="questions-form-form-mobile"] label input::placeholder {
-        color: #FFFFFF;
-    }
+.button-right {
+  background-color: #E3B873;
+  width: 36px;
+  height: 36px;
+  border: none;
+  position: absolute;
+  top: 50%;
+  right: 13px;
+  border-radius: 50%;
+}
 
-    .questions-form-name,
-    .questions-form-phone,
-    .questions-form-question {
-        border-bottom: 1px solid rgba(255, 255, 255, 0.7);
-        width: 340px;
-        margin-bottom: 60px;
-    }
+.vector-right {
+  transform: rotate(45deg);
+}
 
-    .checkbox-questions-form-mobile {
-        margin-top: -26px;
-        margin-bottom: 67px;
-    }
+.contacts-mobile-two {
+  background-color: black;
+  height: 1275px;
+  margin-top: -94px;
+}
 
-    .contacts-map-google-mobile {
-        border: 0;
-    }
+.questions-div-mobile {
+  padding-top: 133px;
+  display: grid;
+  justify-content: center;
+}
 
-    .map-google-mobile {
-        width: 93vw;
-        height: 36vh;
-        margin-top: 46px;
-    }
+.questions-form-mobile {
+  margin: 0 auto;
+}
 
-    div[class="contacts-map"]>h3 {
-        width: 95vw;
-        padding-top: 41px;
-        font-size: 18px;
-	    line-height: 25px;
-    }
+form[class="questions-form-form-mobile"] label input::placeholder {
+  color: #FFFFFF;
+}
 
-    .mailto,
-    .instagram {
-        width: 35px;
-        height: 35px;
-    }
+.questions-form-name,
+.questions-form-phone,
+.questions-form-question {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  width: 340px;
+  margin-bottom: 60px;
+}
 
-    .instagram {
-        margin-left: 16px;
-    }
+.checkbox-questions-form-mobile {
+  margin-top: -26px;
+  margin-bottom: 67px;
+}
 
-}    
-    
+.contacts-map-google-mobile {
+  border: 0;
+}
+
+.map-google-mobile {
+  width: 93vw;
+  height: 36vh;
+  margin-top: 46px;
+}
+
+div[class="contacts-map"]>h3 {
+  width: 95vw;
+  padding-top: 41px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.mailto,
+.instagram {
+  width: 35px;
+  height: 35px;
+}
+
+.instagram {
+  margin-left: 16px;
+}
+
+}

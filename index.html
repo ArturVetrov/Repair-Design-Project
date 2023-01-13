@@ -15,9 +15,7 @@
 <body>
 <header class="header">
     <div class="container header_content"> 
-        <div class="logo">
-            IC "Repair Design Project"
-            </div>
+        <div class="logo">IC "Repair Design Project"</div>
             <nav>
                 <ul class="header_navigation">
                     <li class="header_navigation_item"><a href="#home">HOME</a></li>
@@ -29,7 +27,7 @@
                     <a class="telephone" href="tel:+7-928-768-32-39">+7 (928) 768-32-39</a>
                 </ul>
             </nav>
-            <button class="buttonfirst">Request a call</button>
+          <button class="buttonfirst">Request a call</button>
     </div>   
 </header>
 <main>
@@ -50,41 +48,45 @@
     </section>
     <section class="slidetwo_pc" id="projects"> <!--Второй блок страницы для pc-->
         <div class="container">
-            <ul class="slidetwo-nav">
-                <li class="slidetwo-nav-item"><a href="#"><span class="text-decor-underline">Rostov-on-Don, Admiral</span></a></li>
-                <li class="slidetwo-nav-item"><a href="#">Sochi Thieves</a></li>
-                <li class="slidetwo-nav-item"><a href="#">Rostov-on-Don Patriotic</a></li>
-            </ul>
-            <div class="slidetwo-content">
-                <h2 style="font-size: 27px"; class="title"><span class="colortext">Completed </br> projects</span></h2>
-                <p style="font-size: 14px"; class="slidetwo-text">Only a small part of the work performed by our company is presented </br> on the site. 
-                    For 14 years on in the construction  </br>
-                    market we have made happy more than 1000 families</p>
-                    <div class="slidetwo-content_grid">
-                        <div>
-                            <h3 style="font-size: 18px"; class="title"><span class="colortext">City:</span></h3>
-                            <p class="slidetwo-text">Rostov-on-Don </br> LCD admiral</p>
-                        </div>
-                        <div>
-                            <h3 style="font-size: 18px"; class="title"><span class="colortext">apartment area:</span></h3>
-                            <p class="slidetwo-text">Rostov-on-Don </br>81 m<sup>2</sup></p>
-                        </div>
-                        <div>
-                            <h3 style="font-size: 18px"; class="title"><span class="colortext">Repair time:</span></h3>
-                            <p class="slidetwo-text">3.5 months</p>
-                        </div>
-                        <div>
-                            <h3 style="font-size: 18px"; class="title"><span class="colortext">Repair Cost:</span></h3>
-                            <p class="slidetwo-text">Upon request</p>
-                        </div>
-                    </div>
+          <div class="contain"> 
+            <div class="text-content">
+              <h3 class="text-head">Completed </br> projects</h3>
+              <p class="text-head-p">Only a small part of the work performed by our company is presented</br>
+                on the site. For 14 years on in the construction</br> 
+                market we have made happy more than 1000 families</p>
+                <div class="text-options">
+                  <div class="city">
+                    <h3 class="city-head">City:</h3>
+                    <p class="city-text"></p>
+                  </div>
+                  <div class="apart">
+                    <h3 class="apart-head">Apartment area:</h3>
+                    <p class="apart-text"></p>
+                  </div>
+                  <div class="time">
+                    <h3 class="time-head">Repair time:</h3>
+                    <p class="time-text"></p>
+                  </div>
+                  <div class="cost">
+                    <h3 class="cost-head">Repair Cost:</h3>
+                    <p class="cost-text">Upon request</p>
+                  </div>
+                </div>
+                <div class="slider-control">
+                  <button class="btn-left button-not"><img src="images/btnLeft.svg" alt=""></button>
+                  <div class="slider-dots"></div>
+                  <button class="btn-right button-not"><img src="images/btnRight.svg" alt=""></button>
+                </div>
+              </div>
+              <div class="slider">
+                <div class="btn-list">
+                  <button class="btn-slider active n0 button-not" id="admiral">Rostov-on-Don, Admiral</button>
+                  <button class="btn-slider n1 button-not" id="sochi">Sochi Thieves</button>
+                  <button class="btn-slider n2 button-not" id="patriotic">Rostov-on-Don Patriotic</button>
+                </div>
+                <div class="img-output"></div>
+              </div>
             </div>
-                    <div>
-                        <img class="slidetwo-content_img" src="images/slidetwo-content.png" alt="Готовый интерьер. Решение гостинной">
-                    </div>
-                    <div class="arows-nav">
-                        <input type="image" src="images/arrows-nav.svg">
-                    </div>
         </div>         
     </section>
     <section class="slidetwo_mobile" id="projects"> <!--Второй блок страницы для mobile-->
@@ -476,5 +478,6 @@
             <button class="buttonfirst">Request a call</button>
     </div>   
 </footer>
+<script src="script.js"></script>
 </body>
 </html>
